@@ -12,14 +12,12 @@ def log_print(text=""):
     log.flush()
 
 def ask(prompt, valid=None):
-    # Show in terminal:
-    print(prompt)
     # Log to file for browser:
     log_print(prompt)
 
     while True:
         ans = input("> ").strip().lower()   # no prompt string here
-        log_print(f"> {ans}")
+        log.write(f"> {ans}\n")
 
         if ans in EXIT_WORDS:
             log_print("Ending session. Bye!")

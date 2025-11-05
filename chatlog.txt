@@ -1,27 +1,15 @@
 ------ Wi-Fi Troubleshooting Assistant ------
 Type exit or quit anytime to quit. Type 'restart' to restart.
 What's the issue you're experiencing ? ('can't connect', 'slow/unstable', 'forgot password')
-> i have slow wifi
--- Slow Internet --
-Are all devices slow, or just this one? (all/one)
-> one
-Close heavy apps/processes and unused tabs. Did that improve your wifi ? (yes/no)
-> i dont think so
-Invalid input: 'i dont think so'. I'm expecting one of [yes, no]
-> nope
-Check for any driver updates or OS updates. After updating, did it improve? (yes/no)
-> no
-Are you farther from your router compared to other, faster, devices ? (yes/no)
+> i forgot my wifi password
+-- Forgot Wi-fi Password --
+Is this your home network? (yes/no)
 > yes
-Try getting closer to your router or moving your router closer to you (Or use ethernet cable). Did that improve your wifi speed ? (yes/no)
-> no
-Check if someone else is using too much bandwidth via your ISP admin panel. If you don't have access to your admin panel then ask around to see if anyone is downloading something big or running heavy processes. Was there someone using a lot of bandwidth? (yes/no)
-> other
-Invalid input: 'other'. I'm expecting one of [yes, no]
-> yeah
-Use a wired connection (ethernet) or have the other person limit their bandwidth usage. Did that improve your wifi ? (yes/no)
-> yup
-Nice, that fixed it !
+You can view/reset your password in your router admin page or ISP app
+Were you able to reset/retreive your password? (yes/no)
+> nope
+No worries — I’ll hand off to a human with instructions for your router model.
 Would you like to restart or talk to a human ? (restart/human/exit)
-> quit
-Ending session. Bye!
+> human
+Ok - I'll hand off with a summary of the steps we've tried here. Thanks !
+Goodbye!
