@@ -37,8 +37,8 @@ Implemented as sequential prompts (ask() function) that branch based on user inp
 Each path models real-world troubleshooting steps: router checks, device resets, driver updates, and ISP outages.
 
 - Error Handling:
-1. Empty / unclear responses trigger reprompts
-2. Invalid responses (not in expected set) display acceptable options
+    1. Empty / unclear responses trigger reprompts
+    2. Invalid responses (not in expected set) display acceptable options
 
 - Keyword Normalization:
 “yeah,” “yep,” and “affirmative” are normalized to yes; “nah,” “nope” to no.
@@ -55,3 +55,9 @@ The focus is on:
 - Demonstrating how a chatbot can guide users through multi-step troubleshooting while handling invalid inputs gracefully.
 
 ## Screenshots/Examples
+<img width="450" height="500" alt="Screenshot 2025-11-05 at 5 13 56 AM" src="https://github.com/user-attachments/assets/eb3f3877-ea9e-4647-86ac-b586fe86bfb7" />
+<img width="450" height="500" alt="Screenshot 2025-11-05 at 4 56 51 AM" src="https://github.com/user-attachments/assets/b00fe982-9de5-4879-acb8-85e215133f5d" />
+<img width="450" height="500" alt="Screenshot 2025-11-05 at 4 53 25 AM" src="https://github.com/user-attachments/assets/0fa656dd-dee6-42cd-83d2-86a817988a2d" />
+<img width="450" height="500" alt="Screenshot 2025-11-05 at 4 52 36 AM" src="https://github.com/user-attachments/assets/9d6e96c0-b64a-476a-b10f-460b81151929" />
+
+
